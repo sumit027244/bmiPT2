@@ -48,8 +48,12 @@ function App() {
       imgSrc = require('../src/assets/underweight.png')
     } else if (bmi >= 18.5 && bmi < 25) {
       imgSrc = require('../src/assets/healthy.png')
-    } else {
+    } else if (bmi>=25 && bmi<=30) {
       imgSrc = require('../src/assets/overweight.png')
+    } else if (bmi>30 && bmi<=40){
+      imgSrc = require('../src/assets/obese.jpg')
+    } else{
+      imgSrc = require('../src/assets/severe case.jpg')
     }
   }
 
