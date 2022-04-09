@@ -33,7 +33,7 @@ function App() {
       } else if(bmi>30 && bmi<=40){
         setMessage('you are Obese')
       } else{
-        setMessage('you are in Severe Case')
+        setMessage('you are in Severe Case of obesity need doctors consultation')
       }
     }
   }
@@ -93,5 +93,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
